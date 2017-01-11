@@ -25,10 +25,7 @@
   "home": {
     "title": "Accueil",
     "subtitle": "Bienvenue sur mon portfolio, vous trouverez ici des informations sur mon parcours et mes dernières réalisations.",
-    "line1": "Passionné par les nouvelles technologies et le jeu-vidéo, j'aime développer des applications variées pendant mon temps libre.",
-    "line2" : "Depuis 2016, j'ai créé avec une amie Lambdoid Studios, une organisation indépendante de production d'applications.",
-    "friend-link": "https://mripon-portfolio.herokuapp.com",
-    "friend": "Lien vers son portfolio"
+    "line1": "Passionné par les nouvelles technologies et le jeu-vidéo, j'aime développer des applications variées pendant mon temps libre."
   },
   "resume": {
     "title": "Curriculum-Vitae",
@@ -249,7 +246,7 @@
       {
         "icon": "fa fa-map",
         "title": "TSP Solver",
-        "subtitle": "Un application communiquant avec un serveur en C++ à traver un Websocket et calculant le plus court chemin entre des localisations à l'aide de l'algorithme de Little.",
+        "subtitle": "Un application communiquant avec un serveur en C++ à travers un Websocket et calculant le plus court chemin entre des localisations à l'aide de l'algorithme de Little.",
         "link": "#tsp-solver",
         "picture": "tsp-solver-2.jpg",
         "tags": ["c++", "js"],

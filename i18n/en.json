@@ -1,0 +1,288 @@
+{
+  "menu": {
+    "brand": {
+      "label": "My Portfolio"
+    },
+    "home": {
+      "label": "Home",
+      "icon": "fa fa-home"
+    },
+    "resume": {
+      "label": "Resume",
+      "icon": "fa fa-user"
+    },
+    "projects": {
+      "label": "Achievements",
+      "icon": "fa fa-gears"
+    },
+    "contact": {
+      "label": "Contact",
+      "icon": "fa fa-comment"
+    },
+    "linkedin": "https://ca.linkedin.com/in/francois-decan-0a2832b3",
+    "github": "https://github.com/Eldow"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Welcome on my portfolio, you will find here informations about my career and my last achivements.",
+    "line1": "Passionate by new technologies and video games, I like to develop applications during my spare time."
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "Software developer",
+    "download": "Download my resume",
+    "info": {
+      "title": "Personal Informations",
+      "birthdate": {
+        "key": "Birthdate",
+        "value": "11/05/1994"
+      },
+      "mail": {
+        "key": "E-mail",
+        "value": "fdecan.pro@gmail.com"
+      },
+      "address": {
+        "key": "Address",
+        "value": "Chicoutimi, QC, CANADA"
+      }
+    },
+    "pro": {
+      "title": "Professional experience",
+      "works": [
+        {
+          "brand": "KAPIA",
+          "label": "Kapia Solutions",
+          "localisation": "Lille, Nord, France",
+          "period": "Mai-Juillet 2016",
+          "missions": [
+            "• Development of an AngularJS app communicating with an Oracle database through a java Webservice.",
+            "• Management of the git workflow.",
+            "• Maintenance of a NodeJS tool to automate deployments",
+            "• Usage of the SCRUM method."
+          ]
+        }
+      ]
+    },
+    "education": {
+      "title": "Scholarship",
+      "schools" : [
+      {
+        "brand": "UQAC",
+        "label": "Université du Québec à Chicoutimi",
+        "logo": "uqac-logo.png",
+        "localisation": "Chicoutimi, QC, Canada",
+        "period": "2016 - 2017",
+        "description": "Second year of master in computer science, focused on video games. (In pair with ISEN)"
+      },
+      {
+        "brand": "ISEN",
+        "label": "Institut Supérieur de l'Électronique et du Numérique de Lille",
+        "localisation": "Lille, Nord, France",
+        "logo": "isen-logo.png",
+        "period": "2015 - 2016",
+        "description": "First year of Software development and Big Data."
+      },
+      {
+        "brand": "ISEN",
+        "label": "Institut Supérieur de l'Électronique et du Numérique de Lille",
+        "localisation": "Lille, Nord, France",
+        "logo": "isen-logo.png",
+        "period": "2011 - 2015",
+        "description": "Bachelor of Technology - three years of study in mathematics, physics and IT."
+      },
+      {
+        "label": "Lycée Guillaume Budé",
+        "localisation": "Limeil-Brévannes, Ile-de-France, France",
+        "period": "2009 - 2011",
+        "description": "High School diploma passed with distinctions."
+      }
+     ]
+    },
+    "skills": {
+      "title": "Skills",
+      "language": "Languages",
+      "technology": "IT",
+      "languages": [
+        {
+          "name": "French",
+          "rating": 5
+        },
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "German",
+          "rating": 2
+        },
+        {
+          "name": "Spanish",
+          "rating": 1
+        }
+      ],
+      "technologies": [
+        {
+          "category": "Software",
+          "list": ["C++", "C#", "Java"]
+        },
+        {
+          "category": "Scripting",
+          "list": ["Python", "Bash"]
+        },
+        {
+          "category": "Web",
+          "list": ["Html", "Css", "Javascript", "NodeJS", "ExpressJS", "AngularJS"]
+        },
+        {
+          "category": "Database",
+          "list": ["PostgreSQL", "MongoDB"]
+        },
+        {
+          "category": "Versioning",
+          "list": ["Git", "SVN"]
+        },
+        {
+          "category": "IDE",
+          "list": ["Netbeans", "VisualStudio", "AndroidStudio", "Eclipse", "Atom", "Webstorm"]
+        },
+        {
+          "category": "Game Engines",
+          "list": ["UnityEngine"]
+        },
+        {
+          "category": "Others",
+          "list": ["Adobe Suite", "Office Suite", "OpenGL", "JIRA"]
+        }
+      ]
+    },
+    "achievements": {
+      "title": "Last achievements"
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "list": [
+        {
+          "name": "Clarinet",
+          "picture": "clarinet.png"
+        },
+        {
+          "name": "Piano",
+          "picture": "piano.png"
+        },
+        {
+          "name": "Ping-pong",
+          "picture": "ping-pong.png"
+        }
+      ]
+    }
+  },
+  "projects" : {
+    "title": "Last achievements",
+    "subtitle": "Here is a list of my last achievements.",
+    "objective": "Objective",
+    "how": "How does it work ? ",
+    "list":
+    [
+      {
+        "icon": "fa fa-magnet",
+        "title": "Lambda Engine",
+        "subtitle": "A game engine written in pure JavaScript.",
+        "link": "#lambda-engine",
+        "picture": "lambda-engine-1.PNG",
+        "tags": ["html", "css", "js"],
+        "period": "October 2016",
+        "order": 8
+      },
+      {
+        "icon": "fa fa-sun-o",
+        "title": "Eclipse",
+        "subtitle": "A Puzzle/Platformer 2D Game made with Unity.",
+        "link": "#eclipse",
+        "picture": "eclipse-1.png",
+        "tags": ["c#", "unity"],
+        "period": "October - December 2016",
+        "order": 9
+      },
+      {
+        "icon": "fa fa-chrome",
+        "title": "JChrome",
+        "subtitle": "A java implementation of a web browser using Rhino and JSoup",
+        "link": "#jchrome",
+        "picture": "jchrome-logo.jpg",
+        "tags": ["java"],
+        "period": "March - June 2014",
+        "order": 2
+      },
+      {
+        "icon": "fa fa-home",
+        "title": "The Village",
+        "subtitle": "An android app of an alternative to the Mafia game. Connected to a MongoDB database through an express WebService",
+        "link": "#the-village",
+        "picture": "the-village-1.jpg",
+        "tags": ["java", "android", "node", "express", "mongo"],
+        "period": "May - December 2016",
+        "order": 7
+      },
+      {
+        "icon": "fa fa-music",
+        "title": "P.E.Z Audio Player",
+        "subtitle": "A connected audio library for android 5.0+.",
+        "link": "#pez-audio-player",
+        "picture": "pez-audio-player-pub.jpg",
+        "tags": ["java", "android"],
+        "period": "October - November 2015",
+        "order": 4
+      },
+      {
+        "icon": "fa fa-film",
+        "title": "Constellation Series",
+        "subtitle": "An application designed to keep track of your followed series, connected to a C# domotic oriented solution",
+        "link": "#constellation-series",
+        "picture": "constellation-series-2.PNG",
+        "tags": ["c#", "js", "angular"],
+        "period": "March 2016",
+        "order": 5
+      },
+      {
+        "icon": "fa fa-map",
+        "title": "TSP Solver",
+        "subtitle": "An app communicating with a C++ server through Websocket and computing the shortest path between points with the Little algorithm",
+        "link": "#tsp-solver",
+        "picture": "tsp-solver-2.jpg",
+        "tags": ["c++", "js"],
+        "period": "February - June 2013",
+        "order": 1
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Hire",
+        "subtitle": "A MEAN app designed to ease the job of a human relation team inside a company.",
+        "link": "#hire",
+        "picture": "hire-1.PNG",
+        "tags": ["mongo", "express", "angular", "node"],
+        "period": "April 2016",
+        "order": 6
+      },
+      {
+        "icon": "fa fa-university",
+        "title": "Dynasty",
+        "subtitle": "A strategy game made in C#.",
+        "link": "#dynasty",
+        "picture": "dynasty-1.png",
+        "tags": ["c#"],
+        "period": "July 2015",
+        "order": 3
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Any questions ? Send me a message !",
+    "object": "Subject",
+    "content": "Content",
+    "send": "Send",
+    "info": "You can contact me on LinkedIn, by mail or using the form below.",
+    "success" : "Your message has been sent.",
+    "error": "An error has occured, the service may be unavailable in your country."
+  }
+}

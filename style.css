@@ -1,6 +1,17 @@
-body {
-  background-image: url(http://scarbroughstudios.com/img/codepen.svg);
+html {
+    overflow-y: scroll;
+}
 
+.panel > .panel-heading {
+  background-image: url(http://scarbroughstudios.com/img/codepen.svg);
+  background-color: #008cba;
+  color: #fff;
+}
+
+.navbar{
+  background-image: url(http://scarbroughstudios.com/img/codepen.svg);
+  background-color: #008cba;
+  color: #fff;
 }
 
 .row-bottom {
