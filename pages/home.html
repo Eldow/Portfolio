@@ -1,21 +1,15 @@
 <div class="jumbotron text-center">
     <h1>{{ data.home.title }}</h1>
     <p>{{ data.home.subtitle }}</p>
+    <p class="text-primary">{{data.home.line1}}</p>
 </div>
 <div class="container">
-  <div class="row">
-    <div class="col-md-12"><h4 class="text-center">{{data.home.line1}}</h4></div>
-  </div>
-  <div class="row">
-    <div class="col-md-12"><h4 class="text-center">{{data.home.line2}}</h4></div>
-  </div>
-  <div class="row">
-    <div class="col-md-12"><a ng-href="data.home.friend-link"><p class="text-center">{{ data.home.friend}}</p></a></div>
-  </div>
-  <div class="row">
-    <img class="img-responsive center-block" src="img/lambdoid-logo.PNG"/>
-  </div>
-  <div class="row">
-    <div class="col-md-12"><p class="text-center text-info">Lambdoid Studios</p></div>
+  <div class="row row-bottom">
+    <div class="col-md-6">
+      <img style="max-height:150px; object-fit:cover;"  class="img-responsive center-block" ng-src="img/{{data.resume.education.schools[0].logo}}">
+    </div>
+    <div class="col-md-6">
+      <img style="max-height:150px; object-fit:cover;" class="img img-responsive center-block" ng-src="img/{{data.resume.education.schools[1].logo}}">
+    </div>
   </div>
 </div>

@@ -1,3 +1,12 @@
+body {
+  background-image: url(http://scarbroughstudios.com/img/codepen.svg);
+
+}
+
+.row-bottom {
+  margin-top: 100px;
+}
+
 .no-gutter {
   padding: 0;
 }
@@ -8,7 +17,7 @@
 /* The starting CSS styles for the enter animation */
 .fade.ng-enter {
   webkit-transition:0.2s linear all;
-  transition:1s linear all;
+  transition:0.5s linear all;
   opacity:0;
   display:block;
 }

@@ -27,7 +27,7 @@
     "subtitle": "Bienvenue sur mon portfolio, vous trouverez ici des informations sur mon parcours et mes dernières réalisations.",
     "line1": "Passionné par les nouvelles technologies et le jeu-vidéo, j'aime développer des applications variées pendant mon temps libre.",
     "line2" : "Depuis 2016, j'ai créé avec une amie Lambdoid Studios, une organisation indépendante de production d'applications.",
-    "friend-link": "https://mripon.herokuapp.com",
+    "friend-link": "https://mripon-portfolio.herokuapp.com",
     "friend": "Lien vers son portfolio"
   },
   "resume": {
@@ -46,7 +46,7 @@
       },
       "address": {
         "key": "Adresse",
-        "value": "555, Boulevard de l’Université, G7H 2B1, Chicoutimi, QC, CANADA"
+        "value": "Chicoutimi, QC, CANADA"
       }
     },
     "pro": {
@@ -60,7 +60,8 @@
           "missions": [
             "• Développement d’une application AngularJS communiquant avec une base de données Oracle à travers un WebService Java.",
             "• Gestion d’un flux de travail Git.",
-            "• Maintenance d’un outil NodeJS utilisant Gulp afin d’automatiser les déploiements."
+            "• Maintenance d’un outil NodeJS utilisant Gulp afin d’automatiser les déploiements.",
+            "• Utilisation de la méthode SCRUM."
           ]
         }
       ]
@@ -86,9 +87,9 @@
       },
       {
         "brand": "ISEN",
-        "label": "Université du Québec à Chicoutimi",
+        "label": "Institut Supérieur de l'Électronique et du Numérique de Lille",
         "localisation": "Lille, Nord, France",
-        "logo": "uqac-logo.png",
+        "logo": "isen-logo.png",
         "period": "2011 - 2015",
         "description": "Acquisition du Bachelor of Technology à l’issue de trois années de classes préparatoires en mathématiques, physique et informatique."
       },
@@ -153,7 +154,7 @@
         },
         {
           "category": "Autres",
-          "list": ["Suite Adobe", "Pack Office", "OpenGL"]
+          "list": ["Suite Adobe", "Pack Office", "OpenGL", "JIRA"]
         }
       ]
     },
@@ -193,7 +194,6 @@
         "picture": "lambda-engine-1.PNG",
         "tags": ["html", "css", "js"],
         "period": "Octobre 2016",
-        "content": "Lambda Engine est un moteur de jeu réalisé dans le cadre du cours de conception de jeux vidéos à l'UQAC Chicoutimi.",
         "order": 8
       },
       {
