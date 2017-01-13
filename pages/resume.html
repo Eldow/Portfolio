@@ -31,7 +31,7 @@
     <div class="panel-body" ng-repeat="work in data.resume.pro.works">
       <div class="row">
         <h4 class="col-md-2">{{ work.period }}</h4>
-        <h4 class="col-md-6">{{ work.label }}</h4>
+        <h4 class="col-md-6 text-primary">{{ work.label }}</h4>
         <h4 class="col-md-4">{{ work.localisation }}</h4>
       </div>
       <div class="row" ng-repeat="mission in work.missions">
@@ -47,7 +47,7 @@
     <div class="panel-body" ng-repeat="school in data.resume.education.schools">
       <div class="row">
         <h4 class="col-md-2">{{ school.period }}</h4>
-        <h4 class="col-md-6">{{ school.label }}</h4>
+        <h4 class="col-md-6 text-primary">{{ school.label }}</h4>
         <h4 class="col-md-4">{{ school.localisation }}</h4>
       </div>
       <div class="row">
@@ -62,14 +62,14 @@
     </div>
     <div class="panel-body">
       <div class="row">
-        <h3 class="col-md-12">{{ data.resume.skills.language }}</h3>
+        <h3 class="col-md-12 text-primary">{{ data.resume.skills.language }}</h3>
       </div>
       <div class="row" ng-repeat="language in data.resume.skills.languages">
         <h4 class="col-md-4">{{ language.name }}</h4>
         <div class="col-md-8"><span ng-repeat="star in GetNumber(language.rating) track by $index">{{star}}<i class="fa fa-star"></i></span></div>
       </div>
       <div class="row">
-        <h3 class="col-md-12">{{ data.resume.skills.technology }}</h3>
+        <h3 class="col-md-12 text-primary">{{ data.resume.skills.technology }}</h3>
       </div>
       <div class="row" ng-repeat="tech in data.resume.skills.technologies">
         <h4 class="col-md-4">{{ tech.category }}</h4>
@@ -85,7 +85,7 @@
     <div class="panel-body" ng-repeat="project in data.projects.list | orderBy: '-order'">
       <div class="row">
         <h4 class="col-md-4">{{ project.period }}</h4>
-        <h4 class="col-md-8">{{ project.title }}</h4>
+        <h4 class="col-md-8 text-primary">{{ project.title }}</h4>
       </div>
       <div class="row">
             <div class="col-md-12"> {{ project.subtitle }}</div>
