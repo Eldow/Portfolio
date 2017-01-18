@@ -196,7 +196,7 @@
       {
         "icon": "fa fa-sun-o",
         "title": "Eclipse",
-        "subtitle": "Un jeu vidéo de type Puzzle/Plateforme exploitant la dualité ombre et lumière. Réalisée avec Unity.",
+        "subtitle": "Un jeu vidéo de type Puzzle/Plateforme exploitant la dualité ombre et lumière. Réalisé avec Unity.",
         "link": "#eclipse",
         "picture": "eclipse-1.png",
         "tags": ["c#", "unity"],
