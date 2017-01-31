@@ -19,7 +19,7 @@
       "label": "Contact",
       "icon": "fa fa-comment"
     },
-    "linkedin": "www.linkedin.com/in/francois-decan",
+    "linkedin": "https://www.linkedin.com/in/francois-decan",
     "github": "https://github.com/Eldow"
   },
   "home": {
@@ -180,8 +180,12 @@
   "projects" : {
     "title": "Dernières réalisations",
     "subtitle": "Voici une liste de mes derniers projets.",
-    "objective": "Objectif",
-    "how": "Comment ça marche ? ",
+    "objective": "Présentation",
+    "how": "Architecture",
+    "caracteristics": "Caractéristiques",
+    "start_date": "Date de réalisation",
+    "languages": "Technologies utilisées",
+    "git": "Voir ce projet sur GitHub",
     "list":
     [
       {
@@ -189,19 +193,30 @@
         "title": "Lambda Engine",
         "subtitle": "Un moteur de jeu en pur Javascript.",
         "link": "#lambda-engine",
+        "gitUrl": "https://github.com/Eldow/LambdaEngine",
         "picture": "lambda-engine-1.PNG",
+        "picture2": "lambda-engine-2.PNG",
         "tags": ["html", "css", "js"],
         "period": "Octobre 2016",
+        "line1": "LambdaEngine est un simple moteur de jeu en javascript, il implémente une boucle de jeu simple permettant de rafraîchir l'affichage à un framerate fixe (par défaut 60FPS).",
+        "line2": "Plusieurs boîtes de collisions ont été développées : des cercles, des points, des AABB, des OBB et des K-DOP. Les détection de collision entre chacune de ces classes se fait de manière personnalisée à l'aide de plusieurs algorithmes, par exemple le SAT (Separate Axis Theorem).",
+        "line3": "Le chargement des formes est effectué à partir d'un fichier JSON contenant leur description. L'application a été rendue responsive en utilisant des ratios pour recalculer les coordonnées pour de plus petites résolutions d'écran.",
+        "line4": "La librairie javascript Jasmine a été utilisée pour réaliser des tests unitaires afin de vérifier le bon fonctionnement du code.",
         "order": 8
       },
       {
         "icon": "fa fa-sun-o",
         "title": "Eclipse",
-        "subtitle": "Un jeu vidéo de type Puzzle/Plateforme exploitant la dualité ombre et lumière. Réalisé avec Unity.",
+        "subtitle": "Un jeu vidéo de type Puzzle/Plateforme altérant la perception du joueur à l'aide d'effets d'ombre et lumière. Réalisé avec Unity.",
         "link": "#eclipse",
+        "gitUrl": "https://github.com/Eldow/Eclipse",
         "picture": "eclipse-1.png",
         "tags": ["c#", "unity"],
         "period": "Octobre - Décembre 2016",
+        "line1": "Eclipse est un jeu se déroulant dans les années 1920, notre héros, le professeur Fitzgerald, subit une malédiction et ne peut plus se déplacer sous la lumière.",
+        "line2": "Cette mécanique nous permet de créer des situations de gameplay inventives où le joueur devra utiliser des astuces pour avancer et résoudre les puzzles.",
+        "line3": "De nombreux objets et personnages ont été implémentés : caisses, serpents, scarabées, sarcophages, momies ou encore un boss, autant d'entités avec lesquelles le joueur peut interagir.",
+        "line4": "En plus de la programmation, ce projet m'a également permis de travailler d'autres secteurs du développement d'un jeu comme la gestion des animations ou la création d'une bande sonore et d'effets spéciaux.",
         "order": 9
       },
       {
@@ -212,6 +227,10 @@
         "picture": "jchrome-logo.jpg",
         "tags": ["java"],
         "period": "Mars - Juin 2014",
+        "line1": "Ce projet m'a permis de me forger une idée du fonctionnement général d'un navigateur web. Mon équipe et moi-même avons programmé un navigateur disposant de nombreuses features que l'on peut retrouver dans des navigateurs modernes mais avec les contraintes d'utiliser des librairies open-source telles que Rhino et JSoup.",
+        "line2": "Rhino est un moteur javascript créé par la société Mozilla, il nous a permis de créer notre propre console développeur.",
+        "line3": "JSoup quant à lui nous a permis de traverser le Document Object Model d'une page web afin d'en restituer le contenu dans un layout Java.",
+        "line4": "En plus du simple restitution d'une page web, nous avons implémenté des features supplémentaires telles que la gestion des favoris et de l'historique.",
         "order": 2
       },
       {
@@ -222,6 +241,10 @@
         "picture": "the-village-1.jpg",
         "tags": ["java", "android", "node", "express", "mongo"],
         "period": "Mai - Décembre 2016",
+        "line1": "Cette application permet de jouer en ligne sur mobile au jeu du loup-garou, alternative au jeu Mafia. Il s'agit d'un jeu tour par tour reposant sur la communication et le bluff.",
+        "line2": "Des loups-garous ont envahi votre village, les joueurs villageois ont pour but de se débarasser de cette menace tandis que les joueurs loups-garous doivent éliminer toute la population. Une partie se déroule en deux phases, le jour et la nuit. Le jour, les villageois votent pour éliminer un de leur compatriotes supposé loup-garou, et la nuit, les loups choisissent une victime.",
+        "line3": "Des rôles spéciaux viennent pimenter l'action : L'institutrice, par exemple, peut supprimer le droit de vote d'un joueur. Il en existe des dizaines.",
+        "line4": "Le projet se découpe en deux parties. Un client Android et un serveur NodeJS lui même désservant deux rôles : celui d'un WebService REST afin de communiquer des informations de jeu aux clients, et celui d'un serveur Socket.IO permettant de chatter en temps réel avec ses équipiers.",
         "order": 7
       },
       {
@@ -232,6 +255,11 @@
         "picture": "pez-audio-player-pub.jpg",
         "tags": ["java", "android"],
         "period": "Octobre - Novembre 2015",
+        "line1": "P.E.Z Audio Player est une application mobile de bibliothèque musicale disposant, en plus de toutes les fonctionnalités basique d'un lecteur de musique, de fonctions de récupération automatique des métadonnées manquantes sur vos musiques.",
+        "line2": "L'application comporte un gestionnaire de fichiers, une librairie par artiste, album et chanson ainsi qu'une queue de lecture.",
+        "line3": "La queue de lecture permet de modifier l'ordre d'écoute des musiques.",
+        "line4": "Le point d'honneur de ce projet repose sur l'optimisation qui y a été apporté pour la gestion de gros volumes de musique, ce qui est primordial pour mobile, si l'on souhaite économiser la batterie et les données et avoir des temps de réponses corrects.",
+        "line5": "Pour ce faire, nous avons utilisé des RecyclerView pour ne charger que ce qui est affiché à l'écran et utilisé le cache et le système de fichiers du téléphone pour ne pas recharger les images à chaque utilisation.",
         "order": 4
       },
       {
@@ -242,6 +270,8 @@
         "picture": "constellation-series-2.PNG",
         "tags": ["c#", "js", "angular"],
         "period": "Mars 2016",
+        "line1": "Constellation Series est une application web AngularJS reliée à un backend en C# communiquant avec une API, OmdB, permettant de garder trace de ses séries suivies.",
+        "line2": "Elle a la particularité d'être reliée à un système domotique, Constellation, ayant pour rôle de centraliser les données de toute la maison sur un serveur central.",
         "order": 5
       },
       {
@@ -252,6 +282,10 @@
         "picture": "tsp-solver-2.jpg",
         "tags": ["c++", "js"],
         "period": "Février - Juin 2013",
+        "line1": "L'application est constituée d'un client JavaScript utilisant RequireJS ainsi que d'un serveur C++ réalisant l'algorithme de Little.",
+        "line2": "Le client est relié à l'API Google Map afin d'obtenir la matrice des coûts de diverses localisations placées sur la carte. Ces données sont stockées via LocalStorage pour éviter les recalculer pour des sets de points connus.",
+        "line3": "La liaison client-serveur est effectuée à l'aide de la technologie Websocket, permettant de se connecter à un port puis d'émettre et de recevoir des messages.",
+        "line3": "Le fonctionnement global est le suivant : placement des points sur google maps, génération de la matrice, envoi de cette dernière au serveur qui va réaliser l'algorithme de Little et renvoyer un tableau des points formant le chemin le plus court.",
         "order": 1
       },
       {
@@ -262,6 +296,10 @@
         "picture": "hire-1.PNG",
         "tags": ["mongo", "express", "angular", "node"],
         "period": "Avril 2016",
+        "line1": "La plateforme Hire a été réalisée en utilisant le framework MEAN.js, en combinaison avec ses générateurs Yeoman. La génération automatique des templates nous a octroyé un gain de temps considérable.",
+        "line2": "L'application est constitué d'un client AngularJS et d'un serveur NodeJS/Express faisant office de webservice REST afin de communiquer avec la base MongoDB.",
+        "line3": "Le module Mongoose nous permet de communiquer avec une base MongoDB et de créer nos documents sans configuration préalable.",
+        "line3": "Ce projet m'aura notamment permis de me familiariser avec les services REST et les requêtes http.",
         "order": 6
       },
       {
@@ -272,6 +310,10 @@
         "picture": "dynasty-1.png",
         "tags": ["c#"],
         "period": "Juillet 2015",
+        "line1": "Dynasty est un jeu de stratégie en temps réel réalisé en C#.",
+        "line2": "Il est constitué d'un plateau de jeu découpé en tiles permettant plusieurs types d'actions : construction de bâtiments, affichage d'unités.",
+        "line3": "Au clic sur un bâtiment ou au survol d'une entité, une description est fournie afin de situer historiquement le joueur. Des actions sont également proposées afin d'améliorer sa ville et agrandir son armée.",
+        "line3": "L'objectif est de vaincre des assauts d'une difficulté grandissante jusqu'à atteindre le seuil maximum de développement, où un boss sera envoyé, terminant la session de jeu.",
         "order": 3
       }
     ]
