@@ -346,7 +346,7 @@
     "object": "Subject",
     "content": "Content",
     "send": "Send",
-    "info": "You can contact me on LinkedIn, by mail or using the form below.",
+    "info": "You can contact me by LinkedIn, mail or by using the form below.",
     "success" : "Your message has been sent.",
     "error": "An error has occured, the service may be unavailable in your country."
   }
