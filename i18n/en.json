@@ -184,6 +184,10 @@
     "subtitle": "Here is a list of my last achievements.",
     "objective": "Objective",
     "how": "How does it work ? ",
+    "start_date": "Start Date",
+    "caracteristics": "Caracteristics",
+    "languages": "Technologies",
+    "git": "View on GitHub",
     "list":
     [
       {
