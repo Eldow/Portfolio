@@ -55,6 +55,10 @@ portfolio.config(function($routeProvider) {
           templateUrl: 'pages/projects/tsp-solver.html',
           controller: 'tspSolverController'
         })
+        .when('/spqr', {
+          templateUrl: 'pages/projects/spqr.html',
+          controller: 'spqrController'
+        })
         .otherwise({
           redirectTo: '/'
         });
@@ -107,6 +111,9 @@ portfolio.controller('hireController', function($scope){
 });
 portfolio.controller('dynastyController', function($scope){
   $scope.project = $scope.data.projects.list[8];
+});
+portfolio.controller('spqrController', function($scope){
+  $scope.project = $scope.data.projects.list[9];
 });
 portfolio.controller('contactController', function($scope, $http){
   $scope.message = {};

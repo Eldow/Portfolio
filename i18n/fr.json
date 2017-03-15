@@ -25,7 +25,9 @@
   "home": {
     "title": "Accueil",
     "subtitle": "Bienvenue sur mon portfolio, vous trouverez ici des informations sur mon parcours et mes dernières réalisations.",
-    "line1": "Passionné par les nouvelles technologies et le jeu-vidéo, j'aime développer des applications variées pendant mon temps libre."
+    "line1": "Passionné par les nouvelles technologies et le jeu-vidéo, j'aime développer des applications variées pendant mon temps libre.",
+    "currentProject": "Cliquez ici pour voir mon projet du moment.",
+    "currentProjectLink": "#spqr"
   },
   "resume": {
     "title": "Curriculum-Vitae",
@@ -253,6 +255,7 @@
         "subtitle": "Une application de blibliothèque musicale connectée pour Android 5.0+.",
         "link": "#pez-audio-player",
         "picture": "pez-audio-player-pub.jpg",
+        "picture2": "pez-audio-player-3.PNG",
         "tags": ["java", "android"],
         "period": "Octobre - Novembre 2015",
         "line1": "P.E.Z Audio Player est une application mobile de bibliothèque musicale disposant, en plus de toutes les fonctionnalités basique d'un lecteur de musique, de fonctions de récupération automatique des métadonnées manquantes sur vos musiques.",
@@ -268,6 +271,7 @@
         "subtitle": "Une application AngularJS permettant de garder le fil de ses séries suivies, connectée avec une solution domotique à travers un serveur en C#.",
         "link": "#constellation-series",
         "picture": "constellation-series-2.PNG",
+        "picture2": "constellation-series-1.PNG",
         "tags": ["c#", "js", "angular"],
         "period": "Mars 2016",
         "line1": "Constellation Series est une application web AngularJS reliée à un backend en C# communiquant avec une API, OmdB, permettant de garder trace de ses séries suivies.",
@@ -280,6 +284,7 @@
         "subtitle": "Un application communiquant avec un serveur en C++ à travers un Websocket et calculant le plus court chemin entre des localisations à l'aide de l'algorithme de Little.",
         "link": "#tsp-solver",
         "picture": "tsp-solver-2.jpg",
+        "picture2": "tsp-solver-1.PNG",
         "tags": ["c++", "js"],
         "period": "Février - Juin 2013",
         "line1": "L'application est constituée d'un client JavaScript utilisant RequireJS ainsi que d'un serveur C++ réalisant l'algorithme de Little.",
@@ -294,6 +299,7 @@
         "subtitle": "Une application MEAN (Mongo Express Angular Node) designée afin de faciliter le travail du service relation humaine d'une entreprise.",
         "link": "#hire",
         "picture": "hire-1.PNG",
+        "picture2": "hire-2.PNG",
         "tags": ["mongo", "express", "angular", "node"],
         "period": "Avril 2016",
         "line1": "La plateforme Hire a été réalisée en utilisant le framework MEAN.js, en combinaison avec ses générateurs Yeoman. La génération automatique des templates nous a octroyé un gain de temps considérable.",
@@ -308,6 +314,7 @@
         "subtitle": "Un jeu de stratégie en temps réel réalisé en C#.",
         "link": "#dynasty",
         "picture": "dynasty-1.png",
+        "picture2": "dynasty-2.png",
         "tags": ["c#"],
         "period": "Juillet 2015",
         "line1": "Dynasty est un jeu de stratégie en temps réel réalisé en C#.",
@@ -315,6 +322,21 @@
         "line3": "Au clic sur un bâtiment ou au survol d'une entité, une description est fournie afin de situer historiquement le joueur. Des actions sont également proposées afin d'améliorer sa ville et agrandir son armée.",
         "line3": "L'objectif est de vaincre des assauts d'une difficulté grandissante jusqu'à atteindre le seuil maximum de développement, où un boss sera envoyé, terminant la session de jeu.",
         "order": 3
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "S.P.Q.R",
+        "gitUrl": "https://github.com/Eldow/SPQR",
+        "subtitle": "Un jeu de combat en ligne réalisé avec Unity et Photon.",
+        "link": "#spqr",
+        "picture": "spqr-1.JPG",
+        "tags": ["c#", "unity", "photon"],
+        "period": "Janvier - Avril 2017",
+        "line1": "Super Powerful Quantum Robots est un jeu de combat en 3D reprenant des idées issues à la fois des jeux de combat et des jeux de courses.",
+        "line2": "Les personnages sont des robots roulants à l'aide d'une sphère, utilisants de l'énergie pour se déplacer et se battre.",
+        "line3": "Lorsqu'ils n'ont plus d'énergie, ils ne peuvent plus combattre pendant un court laps de temps.",
+        "line3": "L'objectif est de créer un jeu compétitif et équilibré. Il sera possible de s'entraîner contre une intelligence artificielle apprenant des combats du joueur afin de toujours pouvoir affronter plus fort que soi.",
+        "order": 10
       }
     ]
   },
